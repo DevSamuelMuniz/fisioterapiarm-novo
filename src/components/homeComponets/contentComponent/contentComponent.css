@@ -19,10 +19,17 @@
   margin: 0;
   font-size: 1.6rem;
   font-weight: 500;
+  color: #2f6158;
 }
 
 .title-servico {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 400;
+  color: #285c52;
+
+}
+
+#iconCalendly{
+    fill: #285c52;
 }

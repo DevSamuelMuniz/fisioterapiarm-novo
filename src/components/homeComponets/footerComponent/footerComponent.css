@@ -1,0 +1,59 @@
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #2f6158;
+  padding: 1rem 2rem;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crefito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #2f6158;
+  width: 20rem;
+}
+
+.slogan {
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: linear-gradient(to bottom, #ffffff, #ffffffc9, #f1f1f100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.redes-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.ctn-redes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.meritos{
+    font-size: .9rem;
+    font-weight: 300;
+}
