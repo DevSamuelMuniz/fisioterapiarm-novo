@@ -1,7 +1,6 @@
 import React from "react";
 
 //components
-import CardHomeComponent from "../cardHomeComponent/cardHomeComponent";
 import Banner from "../../../assets/img/banner.png";
 import CarrosselComponent from "../../carrosselComponent/carrosselComponent";
 
