@@ -1,0 +1,28 @@
+.content-header {
+  background-color: #2f6158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo-header {
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-logo-header {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-header {
+  font-size: 2rem;
+  font-weight: 400;
+  background: linear-gradient(to bottom, #ffffff, #ffffffc9, #f1f1f100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
