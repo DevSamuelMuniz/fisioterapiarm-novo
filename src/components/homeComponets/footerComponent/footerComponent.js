@@ -50,8 +50,17 @@ function footerComponent() {
             Instagram
           </a>
         </div>
-        <br/>
-        <p className="meritos">Website created by DevSamuelMuniz & DevAnaAndrade</p>
+        <br />
+        <p className="meritos">
+          Website criado pelos desenvolvedores{" "}
+          <a className="linkedin" href="https://www.linkedin.com/in/samuel-muniz-4b5a3126a/">
+            Samuel Muniz
+          </a>{" "}
+          e{" "}
+          <a className="linkedin" href="https://www.linkedin.com/in/anamaria-andrade/">
+            Ana Andrade
+          </a>
+        </p>
       </div>
     </main>
   );
