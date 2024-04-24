@@ -26,3 +26,59 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 1200px) {
+  .content-header {
+    flex-direction: column;
+  }
+
+  .title-header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .logo-header {
+    scale: 0.8;
+    margin-top: 0;
+  }
+
+  .title-header {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .title-header {
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-header {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .logo-header {
+    scale: 0.7;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .title-header {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 347px) {
+  .title-header {
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+
+  .logo-header {
+    width: 9rem;
+  }
+}
