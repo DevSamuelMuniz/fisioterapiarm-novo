@@ -58,9 +58,21 @@ function CarrosselComponent() {
     },
   ];
 
-  // Divida as imagens em grupos de quatro
+  // Defina a quantidade de itens exibidos com base na largura da tela
+  let itemsPerSlide = 4;
+  if (window.innerWidth < 1440) {
+    itemsPerSlide = 3;
+  }
+  if (window.innerWidth < 1096) {
+    itemsPerSlide = 2;
+  }
+  if (window.innerWidth < 700) {
+    itemsPerSlide = 1;
+  }
+
+  // Divida as imagens em grupos com base na quantidade de itens por slide
   const slides = itemsGrouped.reduce((acc, curr, index) => {
-    if (index % 4 === 0) acc.push([]);
+    if (index % itemsPerSlide === 0) acc.push([]);
     acc[acc.length - 1].push(curr);
     return acc;
   }, []);

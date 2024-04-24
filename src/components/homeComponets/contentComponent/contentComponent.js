@@ -1,5 +1,8 @@
 import React from "react";
 
+//img
+import Seta from "../../../assets/img/arrasteparaolado.png"
+
 //components
 import Banner from "../../../assets/img/banner.png";
 import CarrosselComponent from "../../carrosselComponent/carrosselComponent";
@@ -41,6 +44,14 @@ function contentComponent() {
 
       <div className="content-carrossel">
         <CarrosselComponent/>
+      </div>
+
+      <div className="arraste">
+        <h2 className="title-arraste">
+          Arraste para o lado
+        </h2>
+
+        <img className="img-arraste" src={Seta} alt="seta para o lado"/>
       </div>
     </main>
   );

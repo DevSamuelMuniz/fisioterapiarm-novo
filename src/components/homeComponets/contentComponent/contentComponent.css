@@ -1,5 +1,5 @@
 .img-banner-content {
-  width: 50vw;
+  width: 60vw;
   margin: 2rem;
 }
 
@@ -27,9 +27,104 @@
   font-size: 1.2rem;
   font-weight: 400;
   color: #285c52;
-
 }
 
-#iconCalendly{
-    fill: #285c52;
+#iconCalendly {
+  fill: #285c52;
+}
+
+.arraste{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title-arraste{
+  font-size: 1rem;
+  color: #2f6158;
+}
+
+@media screen and (max-width: 1200px) {
+  .img-banner-content {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #iconCalendly {
+    width: 5rem;
+  }
+
+  .title-consulta {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img-banner-content {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .img-banner-content {
+    width: 100vw;
+  }
+
+  #iconCalendly {
+    width: 4rem;
+  }
+
+  .title-consulta {
+    font-size: 1.3rem;
+  }
+
+  .title-servico {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .title-consulta {
+    font-size: 1rem;
+  }
+  .title-servico {
+    font-size: 1rem;
+  }
+
+  .content-consulta {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  #iconCalendly {
+    width: 3rem;
+  }
+
+  .title-consulta {
+    font-size: 0.9rem;
+  }
+  .title-servico {
+    font-size: 0.8rem;
+  }
+
+  .content-consulta {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin: 0 1rem;
+    gap: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .title-consulta {
+    font-size: .73rem;
+  }
 }
